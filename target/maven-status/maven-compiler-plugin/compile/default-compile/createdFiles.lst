@@ -1,0 +1,4 @@
+com\pluralsight\Book.class
+com\pluralsight\DBConnection.class
+com\pluralsight\BookDAO.class
+com\pluralsight\ControllerServlet.class

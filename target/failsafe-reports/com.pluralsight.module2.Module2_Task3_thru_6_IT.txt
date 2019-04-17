@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.module2.Module2_Task3_thru_6_IT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in com.pluralsight.module2.Module2_Task3_thru_6_IT

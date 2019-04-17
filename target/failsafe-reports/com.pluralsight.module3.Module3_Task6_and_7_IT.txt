@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.module3.Module3_Task6_and_7_IT
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.793 sec <<< FAILURE! - in com.pluralsight.module3.Module3_Task6_and_7_IT
+com.pluralsight.module3.Module3_Task6_and_7_IT  Time elapsed: 0.017 sec  <<< ERROR!
+java.lang.RuntimeException: Internal error: Failed to find the "modifiers" field in method setInternalState.
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2417)
+	at org.powermock.reflect.internal.WhiteboxImpl.sedModifiersToField(WhiteboxImpl.java:2348)
+	at org.powermock.reflect.internal.WhiteboxImpl.removeFinalModifierIfPresent(WhiteboxImpl.java:2318)
+	at org.powermock.reflect.internal.WhiteboxImpl.setField(WhiteboxImpl.java:2304)
+	at org.powermock.reflect.internal.WhiteboxImpl.setInternalState(WhiteboxImpl.java:304)
+	at org.powermock.reflect.internal.WhiteboxImpl.setInternalState(WhiteboxImpl.java:317)
+	at org.powermock.reflect.Whitebox.setInternalState(Whitebox.java:190)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:61)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+

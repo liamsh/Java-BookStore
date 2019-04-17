@@ -95,6 +95,7 @@ public class ControllerServlet extends HttpServlet {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	
 	private void updateBook(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
@@ -114,6 +115,8 @@ public class ControllerServlet extends HttpServlet {
 =======
 >>>>>>> parent of bdefbd5... done
 
+=======
+>>>>>>> parent of bdefbd5... done
 =======
 >>>>>>> parent of bdefbd5... done
 

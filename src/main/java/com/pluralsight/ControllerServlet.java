@@ -98,9 +98,9 @@ public class ControllerServlet extends HttpServlet {
 	private void updateBook(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
 		
 		int id = Integer.parseInt(request.getParameter("id"));
-		String booktitle = request.getParameter("title");
-		String bookauthor = request.getParameter("author");
-		String bookprice = request.getParameter("price");
+		String booktitle = request.getParameter("booktitle");
+		String bookauthor = request.getParameter("bookauthor");
+		String bookprice = request.getParameter("bookprice");
 		
 		Book book = new Book(id, booktitle, bookauthor, Float.parseFloat(bookprice));
 		

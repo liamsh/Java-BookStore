@@ -93,8 +93,7 @@ public class ControllerServlet extends HttpServlet {
 		dispatcher.forward(request, response);
 		
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	
 	private void updateBook(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
 		
@@ -110,10 +109,7 @@ public class ControllerServlet extends HttpServlet {
 		response.sendRedirect("list");
 		
 	}
-=======
->>>>>>> parent of bdefbd5... done
-=======
->>>>>>> parent of bdefbd5... done
+
 
 	private void showBookAdmin(HttpServletRequest request, HttpServletResponse response)
 			throws ClassNotFoundException, SQLException, ServletException, IOException {
